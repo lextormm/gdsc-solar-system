@@ -1,0 +1,51 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/Background.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.venus2 {
+    position: absolute;
+    top: 95%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    animation: glow 3s infinite alternate;
+    
+}
+.ven_cards{
+    display: flex;
+    flex-direction: column;
+    overflow: none;
+    height: 500px;
+    margin-top: 300px;
+    margin-right: 900px;
+    
+}
+@keyframes glow {
+    0% {
+        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+    }
+    100% {
+        filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.8));
+    }
+}
+
+.content_venus{
+    color: rgb(250, 250, 250);
+    padding: 20px 50px;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 5;
+    left: 0px;
+    top: 0px;
+    right: 500px;
+}
+

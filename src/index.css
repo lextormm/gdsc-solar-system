@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+ 
+}
+
+body{
+  background: #000000;
+  font-family: 'Montserrat', sans-serif;
+  
+} 
+
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  line-height: 1;
+}
+
+.containertitle{
+  font-family: "Orbitron", sans-serif;
+}
+
+.containercontent, .subscribe-title{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.containerbutton, .footer-text, .maintitle, .maintitlee{
+  font-family: "Orbitron", sans-serif;
+}
+
